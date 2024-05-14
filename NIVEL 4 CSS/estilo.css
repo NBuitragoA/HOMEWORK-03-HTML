@@ -1,0 +1,65 @@
+.fondo {
+    background-color: rgb(163, 162, 170);
+}
+.miTexto{
+    font-size: 80px;
+    color: rgb(6, 83, 6);
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #050505;
+    margin: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    section {
+        border: 2px solid #333;
+        padding: 20;
+
+    }
+    .seccion1 {
+        border-color: #ff0000;
+        padding: 2em;
+        border-radius: 5%;
+    }
+    
+    .seccion2 {
+        border-color: #0c0c0c;
+        padding: 2em;
+        border-radius: 5%; 
+    }
+    
+    .seccion3 {
+        border-color: #0000ff;
+        padding: 2em;
+        border-radius: 5%;
+    }
+    
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .Logo{
+        width: 200 px;
+       
+    }
+    #section-container{
+        background-color: #e9f0e9;
+        width: 85em;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
